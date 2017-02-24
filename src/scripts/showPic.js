@@ -9,8 +9,8 @@ function showPic(whichPic) {
 
     var titleText = whichPic.getAttribute("title");
     var description = document.getElementById("description");
-    description.firstChild.nodeValue = titleText
-
+    description.firstChild.nodeValue = titleText;
+    return true;
 }
 
 function prepareGallery() {
